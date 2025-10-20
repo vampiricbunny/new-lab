@@ -22,7 +22,6 @@ Starting a network:  seeing how I had the large server, I got a rack and decided
 
 I was not only new to Mikrotik, but I was also new to OPNsense, the firewall I had chosen to go with. I played around with around 10 or 11 of them. However, the more user-friendly OpenSense, I decided to go with this.
 
-![alt text](20210329_152832.jpg)
 
 ![alt text](sfp6.PNG)
 
@@ -73,3 +72,58 @@ Forcing a guest out over a VLAN while using a VPN exit node.
 Fan Modification
 
 ![alt text](20230826_174046.jpg)
+
+
+## Had a idea to conserve space
+
+final setup:
+from top to bottom:
+I decided to place networking at the rear top, opposite the power.
+
+ ![alt text](20250317_193507-1.jpg)
+
+below on the shelf is the ms-01 the replacement for the dell firewall:
+
+![alt text](Minisforum-MS-01-Front.jpg)
+
+![alt text](Minisforum-MS-01-Back.jpg)
+
+![alt text](Minisforum-MS-01-Internal.jpg)
+1/4th shelf  that holds both the power brick and the ms-01: (for now)
+![alt text](20251019_200946.jpg)
+
+On the front:
+![alt text](<top 01.jpg>)
+![alt text](<top 02.jpg>)
+![alt text](<top 03.jpg>)
+![alt text](<top 04-1.jpg>)
+
+side project for the modem (fiber)
+![alt text](<modem rig.jpg>)
+
+final cleanup 
+before:
+![alt text](<before sidewire.jpg>)
+after:
+![alt text](<after sidewire.jpg>)
+
+and at the very top we have the junk top:
+![alt text](<top junktop game rig.jpg>)
+and the game rig:
+![alt text](<top game rig.jpg>)
+
+current rack overview:
+![alt text](rack.jpg)
+
+
+The current network topology is described in words.
+
+![alt text](<network_diagram. words only.drawio.png>)
+
+visualzation of network setup:
+![alt text](current_network.drawio.png)
+
+# General speed test on 10/100/1000 networking card:
+![alt text](<speed 2.PNG>)
+
+This concludes the physical setup. I’ll refer back to it when assigning VLAN IDs or discussing Proxmox in the future.
